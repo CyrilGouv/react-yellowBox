@@ -6,6 +6,11 @@
     align-items: center;
 }
 
+.navbar__menu {
+    position: relative;
+    z-index: 3;
+}
+
 .navbar__menu__hamburger {
     border: none;
     outline: none;
