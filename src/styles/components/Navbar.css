@@ -1,0 +1,56 @@
+.Navbar {
+    position: relative;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__menu__hamburger {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbar__menu__hamburger span:first-of-type {
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background-color: var(--white);
+    margin-right: 1rem;
+    border: 2px solid var(--black);
+}
+
+.navbar__menu__hamburger span:last-of-type {
+    text-transform: uppercase;
+    font-family: var(--bodyFont);
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.navbar__logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3.5rem;
+    font-family: var(--titleFont);
+}
+
+.navbar__contact__btn {
+    border: none;
+    outline: none;
+    background-color: var(--white);
+    border: 2px solid var(--black);
+    border-radius: 10px;
+    padding: .65rem 1.5rem;
+    text-transform: uppercase;
+    font-family: var(--bodyFont);
+    font-size: 1.125rem;
+    font-weight: 700;
+    cursor: pointer;
+}

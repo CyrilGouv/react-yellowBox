@@ -1,0 +1,30 @@
+.hero__title {
+    font-family: var(--titleFont);
+    font-size: 20vw;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    padding: 8rem 0 1rem 0;
+    margin: 0;
+}
+
+.hero__subtitle {
+    font-family: var(--bodyFont);
+    font-size: 7vw;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+}
+
+.hero__text {
+    width: 40%;
+    margin: 0 auto;
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 3rem;
+    line-height: 1.5;
+}
