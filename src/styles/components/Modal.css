@@ -16,7 +16,7 @@
     transition: opacity .285s;
 }
 
-.Modal .modal--show {
+.Modal.modal--show {
     opacity: 1;
     visibility: visible;
 }

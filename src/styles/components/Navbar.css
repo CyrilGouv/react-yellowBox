@@ -11,6 +11,14 @@
     z-index: 3;
 }
 
+.navbar__menu.menu--dark .navbar__menu__hamburger span:first-of-type {
+    background-color: var(--yellow);
+}
+
+.navbar__menu.menu--dark .navbar__menu__hamburger span:last-of-type {
+    color: var(--white);
+}
+
 .navbar__menu__hamburger {
     border: none;
     outline: none;
